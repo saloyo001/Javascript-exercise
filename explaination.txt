@@ -87,3 +87,14 @@ has three expressions in its header: initialization, condition, and final-expres
   q3 part3
   When a return keyword is used without a value, the function immediately stops executing and returns undefined. 
   Any code written after the return statement in that execution path will not run.
+
+  q1 part4
+The Global Object is the object that provides globally available variables and functions. 
+In browsers, it is called window, while in other JavaScript environments it can be called global. 
+Polluting the global scope means creating too many global variables, which can cause name conflicts, 
+unexpected changes, and harder-to-maintain code.
+
+  q2 part4
+
+
+  q3 part4
