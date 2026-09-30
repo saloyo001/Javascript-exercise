@@ -27,3 +27,13 @@ if (buyerAge < 5) {
 } else {
     console.log("Senior Discount");
 }
+
+// q4 part2
+
+const balance = 1000;
+
+const accountStatus = balance < 0
+    ? "Account Overdrawn"
+    : "Account Active";
+
+console.log(accountStatus);
