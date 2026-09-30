@@ -34,29 +34,33 @@ q4 part 1.
 
 | && | AND | Returns true if both conditions are true. 
 | || | OR | Returns true if at least one condition is true.
-| ! | NOT | Reverses a Boolean value, changing true to false and vice versa. |
+| ! | NOT | Reverses a Boolean value, changing true to false and vice versa. 
 
 
 loops and functions
+PART1
 
+q1.
 
-q1 part1
 A truthy value is any value that JavaScript treats as true, 
 while a falsy value is a value that JavaScript treats as false.
 Falsy values include false, 0, "" (an empty string), null, undefined, NaN, -0, and 0n. 
 All other JavaScript values are generally considered truthy
 
 
-q2 part1
+q2.
+
 is a feature in JavaScript where the && (AND) and || (OR) operators stop evaluating an expression as soon as the result is known. 
 With the && operator, JavaScript stops when it finds a falsy value, because the whole expression cannot be true if one condition is false. 
 With the || operator,JavaScript stops when it finds a truthy value, because the whole expression is already true.
 
 
-q3 part1
+q3.
 The strict equality operator (===) is generally recommended over the loose equality operator (==) in JavaScript if statements
 because === compares both the value and the data type without changing the type of the values.
 In contrast, == uses type coercion, which means JavaScript automatically converts one value to another data type before comparing them.
+
+
 
 q1 part2
 has three expressions in its header: initialization, condition, and final-expression.
