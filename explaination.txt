@@ -1,1 +1,35 @@
 These are javascript variables.
+
+q2 part 1.
+primitive data types are the basic types of data that a programming language uses to store simple values. 
+They are called primitive because they are the most fundamental building blocks for handling data in a program.
+
+
+1. String – Used to store text, such as names or messages.
+
+2. Number – Used to store numeric values, including whole numbers and decimals.
+
+
+3. BigInt – Used to store very large whole numbers that cannot be safely represented by the regular Number type.
+
+
+4. Boolean – Used to store one of two values: true or false.
+
+
+5. Undefined – Represents a variable that has been declared but has not yet been assigned a value.
+
+
+6. Null – Represents the intentional absence of a value.
+
+7. Symbol – Used to create unique identifiers, often for object properties.
+
+q3 part 1.
+Loose equality (==) compares two values after performing type conversion if their data types are different.
+
+Strict equality (===) compares both the values and their data types without performing type conversion.
+
+q4 part 1.
+
+| && | AND | Returns true if both conditions are true. 
+| | || | OR | Returns true if at least one condition is true.
+ | | ! | NOT | Reverses a Boolean value, changing true to false and vice versa. |
