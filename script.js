@@ -125,14 +125,18 @@ do {
     console.log("do-while ran");  
 } while (n < 5);
 
+<<<<<<< HEAD
 //Part 3: Functions (Anatomy & Execution)
 
+=======
+>>>>>>> 5de8e53 (Q12 & Q15 done)
 //15 Arrow function anatomy
 
 const multiply =(a,b) => a * b
 // omitted function keyword 
 // return key word omitted since it is an expression
 // {} curly braces omitted too
+<<<<<<< HEAD
 // The parentheses around the parameter
 
 //16 Higher-Order Concepts Function A and B
@@ -177,3 +181,6 @@ var t = 5;
 
 
 
+=======
+// The parentheses around the parameter
+>>>>>>> 5de8e53 (Q12 & Q15 done)
