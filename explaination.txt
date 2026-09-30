@@ -72,3 +72,8 @@ has three expressions in its header: initialization, condition, and final-expres
  The break keyword immediately terminates a loop, while continue skips the rest of the current iteration and moves to the next one.
   break stops the loop entirely, whereas continue allows it to keep running. 
   In a for loop, continue still allows the final-expression to execute, updating the counter before the next iteration.
+
+  q1 part3
+  A Function Declaration is a function defined using the function keyword and a name, while a Function Expression is a function stored in a variable. 
+  Function declarations are hoisted, meaning they can be called before they are defined in the code. 
+  Function expressions assigned to variables cannot generally be called before the variable is initialized.
