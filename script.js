@@ -70,3 +70,4 @@ switch (true) {
 
 console.log("Final Score:", finalScore);
 console.log("Grade:", grade);
+
