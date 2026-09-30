@@ -59,3 +59,7 @@ because === compares both the value and the data type without changing the type 
 In contrast, == uses type coercion, which means JavaScript automatically converts one value to another data type before comparing them.
 
 q1 part2
+has three expressions in its header: initialization, condition, and final-expression.
+ The initialization runs once at the beginning of the loop and is usually used to create and set the starting value of a counter. 
+ The condition is checked before each iteration to determine whether the loop should continue. 
+ The final-expression usually updates the counter.
