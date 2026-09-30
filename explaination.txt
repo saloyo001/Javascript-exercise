@@ -77,21 +77,21 @@ has three expressions in its header: initialization, condition, and final-expres
   break stops the loop entirely, whereas continue allows it to keep running. 
   In a for loop, continue still allows the final-expression to execute, updating the counter before the next iteration.
 
+PART3
 
 
-
-  q1 part3
+  q1.
   A Function Declaration is a function defined using the function keyword and a name, while a Function Expression is a function stored in a variable. 
   Function declarations are hoisted, meaning they can be called before they are defined in the code. 
   Function expressions assigned to variables cannot generally be called before the variable is initialized.
 
-  q2 part3
+  q2.
   The arguments object is an array-like object that contains all arguments passed to a traditional function. 
   The Rest Parameter (...args) collects multiple arguments into a real array. 
   Rest parameters are preferred in modern JavaScript because they are easier to use and support array methods.
 
 
-  q3 part3
+  q3.
   When a return keyword is used without a value, the function immediately stops executing and returns undefined. 
   Any code written after the return statement in that execution path will not run.
 
