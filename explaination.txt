@@ -67,3 +67,8 @@ has three expressions in its header: initialization, condition, and final-expres
  q2 part2
  A loop invariant is a condition that remains true throughout the execution of a loop. 
  To ensure a while loop terminates, the programmer must update the variables in the loop so that the condition eventually becomes false, preventing an infinite loop.
+
+ q3 part2
+ The break keyword immediately terminates a loop, while continue skips the rest of the current iteration and moves to the next one.
+  break stops the loop entirely, whereas continue allows it to keep running. 
+  In a for loop, continue still allows the final-expression to execute, updating the counter before the next iteration.
