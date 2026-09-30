@@ -51,3 +51,11 @@ q2 part1
 is a feature in JavaScript where the && (AND) and || (OR) operators stop evaluating an expression as soon as the result is known. 
 With the && operator, JavaScript stops when it finds a falsy value, because the whole expression cannot be true if one condition is false. 
 With the || operator,JavaScript stops when it finds a truthy value, because the whole expression is already true.
+
+
+q3 part1
+The strict equality operator (===) is generally recommended over the loose equality operator (==) in JavaScript if statements
+because === compares both the value and the data type without changing the type of the values.
+In contrast, == uses type coercion, which means JavaScript automatically converts one value to another data type before comparing them.
+
+q1 part2
