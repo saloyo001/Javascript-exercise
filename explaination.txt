@@ -95,16 +95,19 @@ PART3
   When a return keyword is used without a value, the function immediately stops executing and returns undefined. 
   Any code written after the return statement in that execution path will not run.
 
-  q1 part4
+PART4
+
+
+  q1.
 The Global Object is the object that provides globally available variables and functions. 
 In browsers, it is called window, while in other JavaScript environments it can be called global. 
 Polluting the global scope means creating too many global variables, which can cause name conflicts, 
 unexpected changes, and harder-to-maintain code.
 
-  q2 part4
+  q2.
 var is function-scoped, meaning it is available throughout the function where it is declared. 
 let and const are block-scoped, meaning they only exist inside the { } block where they are declared.
 
-  q3 part4
+  q3.
   Variable shadowing happens when a local variable has the same name as a variable in an outer or global scope. 
   JavaScript uses the closest variable to the current code.
