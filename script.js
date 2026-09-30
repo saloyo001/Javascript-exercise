@@ -37,3 +37,36 @@ const accountStatus = balance < 0
     : "Account Active";
 
 console.log(accountStatus);
+
+//q5 part2
+
+const score = 85;
+const bonus = 5;
+
+const finalScore = score + bonus;
+
+let grade;
+
+switch (true) {
+    case finalScore >= 90:
+        grade = "A";
+        break;
+
+    case finalScore >= 80:
+        grade = "B";
+        break;
+
+    case finalScore >= 70:
+        grade = "C";
+        break;
+
+    case finalScore >= 60:
+        grade = "D";
+        break;
+
+    default:
+        grade = "F";
+}
+
+console.log("Final Score:", finalScore);
+console.log("Grade:", grade);
