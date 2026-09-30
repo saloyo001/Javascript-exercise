@@ -48,3 +48,6 @@ All other JavaScript values are generally considered truthy
 
 
 q2 part1
+is a feature in JavaScript where the && (AND) and || (OR) operators stop evaluating an expression as soon as the result is known. 
+With the && operator, JavaScript stops when it finds a falsy value, because the whole expression cannot be true if one condition is false. 
+With the || operator,JavaScript stops when it finds a truthy value, because the whole expression is already true.
