@@ -95,6 +95,7 @@ Polluting the global scope means creating too many global variables, which can c
 unexpected changes, and harder-to-maintain code.
 
   q2 part4
-
+var is function-scoped, meaning it is available throughout the function where it is declared. 
+let and const are block-scoped, meaning they only exist inside the { } block where they are declared.
 
   q3 part4
