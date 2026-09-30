@@ -1,4 +1,6 @@
-These are javascript variables.
+ 
+ q1 part1
+ These are javascript variables.
 
 q2 part 1.
 primitive data types are the basic types of data that a programming language uses to store simple values. 
@@ -31,5 +33,18 @@ Strict equality (===) compares both the values and their data types without perf
 q4 part 1.
 
 | && | AND | Returns true if both conditions are true. 
-| | || | OR | Returns true if at least one condition is true.
- | | ! | NOT | Reverses a Boolean value, changing true to false and vice versa. |
+| || | OR | Returns true if at least one condition is true.
+| ! | NOT | Reverses a Boolean value, changing true to false and vice versa. |
+
+
+loops and functions
+
+
+q1 part1
+A truthy value is any value that JavaScript treats as true, 
+while a falsy value is a value that JavaScript treats as false.
+Falsy values include false, 0, "" (an empty string), null, undefined, NaN, -0, and 0n. 
+All other JavaScript values are generally considered truthy
+
+
+q2 part1
