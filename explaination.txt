@@ -60,22 +60,25 @@ The strict equality operator (===) is generally recommended over the loose equal
 because === compares both the value and the data type without changing the type of the values.
 In contrast, == uses type coercion, which means JavaScript automatically converts one value to another data type before comparing them.
 
+PART2
 
-
-q1 part2
+q1.
 has three expressions in its header: initialization, condition, and final-expression.
  The initialization runs once at the beginning of the loop and is usually used to create and set the starting value of a counter. 
  The condition is checked before each iteration to determine whether the loop should continue. 
  The final-expression usually updates the counter.
 
- q2 part2
+ q2.
  A loop invariant is a condition that remains true throughout the execution of a loop. 
  To ensure a while loop terminates, the programmer must update the variables in the loop so that the condition eventually becomes false, preventing an infinite loop.
 
- q3 part2
+ q3.
  The break keyword immediately terminates a loop, while continue skips the rest of the current iteration and moves to the next one.
   break stops the loop entirely, whereas continue allows it to keep running. 
   In a for loop, continue still allows the final-expression to execute, updating the counter before the next iteration.
+
+
+
 
   q1 part3
   A Function Declaration is a function defined using the function keyword and a name, while a Function Expression is a function stored in a variable. 
