@@ -63,3 +63,7 @@ has three expressions in its header: initialization, condition, and final-expres
  The initialization runs once at the beginning of the loop and is usually used to create and set the starting value of a counter. 
  The condition is checked before each iteration to determine whether the loop should continue. 
  The final-expression usually updates the counter.
+
+ q2 part2
+ A loop invariant is a condition that remains true throughout the execution of a loop. 
+ To ensure a while loop terminates, the programmer must update the variables in the loop so that the condition eventually becomes false, preventing an infinite loop.
